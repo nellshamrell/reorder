@@ -1,3 +1,5 @@
+require File.join(File.dirname(__FILE__), '..', '..', 'lib', 'reorder')
+
 Given /^I have an array with five elements a, b, c, d and e$/ do
   @array = ['a', 'b', 'c', 'd', 'e']
 end
